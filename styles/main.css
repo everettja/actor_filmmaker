@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 a {
     text-decoration:none;
      color: #fff
@@ -19,29 +23,33 @@ h1, h2 {
     padding-bottom: 15px;
 }
 
-.nav .navbar-nav {
-    margin: 0 auto;
-    width: 100%;
+nav {
+    height: 40px;
+    background-color: #000;
+    color:antiquewhite;
 }
 
-li a {
+.nav-links {
+    text-decoration: none;
+    text-align: center;
+    margin: 15px auto;
     color:black;
     font-family:sans-serif;
     font-weight: bold;
 }
 
-nav {
-    background-color: #000;
-    color:antiquewhite;
+.nav-links a {
+  color: black;
+  margin: 15px;
+  padding: 15px 0;
+  vertical-align: middle;
 }
+
 
 header {
     background-color: #000;
 }
 
-body {
-    background-color: black;
-}
 
 h1, h2, h3 {
     color:antiquewhite;
