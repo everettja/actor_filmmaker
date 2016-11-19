@@ -94,3 +94,14 @@ footer {
     width: 720px;
     height: 400px;
 }
+
+.gallery1 {
+    margin: 75px;
+    font-size: 0;
+}
+
+.gallery1 img {
+    height: 435px;
+    width: 350px;
+    margin: 0 50px 50px;
+}
