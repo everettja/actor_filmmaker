@@ -57,14 +57,24 @@ nav {
 
 header {
     background-color: #000;
-}
+ }
 
 
 h1, h2, h3 {
     color:antiquewhite;
 }
 
-#prose {
+.about-jon {
+    width: 720px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.about-jon h3 {
+    text-align: center;
+}
+
+.about-jon p {
     color:antiquewhite;
 }
 
