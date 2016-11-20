@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-color: black;
 }
@@ -10,10 +14,15 @@ a {
     text-decoration:none;
      color: #fff
 }
-#wrapper {
-    max-width: auto;
-    margin-bottom: 0 auto;
-    padding: 0 5%;
+.wrapper {
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+.wrapper p {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
 }
 
 h1, h2 {
@@ -55,19 +64,10 @@ h1, h2, h3 {
     color:antiquewhite;
 }
 
-footer {
-    color: #fff;
-}
-
 #prose {
     color:antiquewhite;
 }
 
-/*#navigationBar {
-    text-align: center;
-    margin-left: 37%;
-    margin-right: 35%;*/
-}
 #headshot_row1 {
     margin: 0;
     float: none;
