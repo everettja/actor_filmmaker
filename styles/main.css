@@ -146,3 +146,9 @@ h1, h2, h3 {
 .social h3 {
     text-align: center;
 }
+
+.icon-btn {
+    display: inline-block;
+    margin: 10px 15px;
+    text-align: center;
+}
