@@ -197,6 +197,11 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.icon-btn:hover,
+.icon-btn:focus {
+    color: white;
+}
+
 .facebook {
     color: #3B5998;
 }
@@ -215,4 +220,13 @@ h1, h2, h3 {
 
 .linkedin {
     color: #007bb6;
+}
+
+/* REEL STYLES */
+
+.reel-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 720px;
+    max-height: 435px;
 }
