@@ -222,6 +222,15 @@ h1, h2, h3 {
     color: #007bb6;
 }
 
+/* RESUME STYLES */
+
+.resume {
+    display: block;
+    max-width: 640px;
+    max-height: 800px;
+    margin: 40px auto;
+}
+
 /* REEL STYLES */
 
 .reel-container {
@@ -229,4 +238,8 @@ h1, h2, h3 {
     padding: 0;
     width: 720px;
     max-height: 435px;
+}
+
+.footage {
+    margin: 40px auto;
 }
