@@ -166,6 +166,8 @@ h1, h2, h3 {
     height: 435px;
     width: 350px;
     margin: 0 50px 50px;
+    border: 2px solid white;
+    border-radius: 3px;
 }
 
 /* CONTACT STYLES */
