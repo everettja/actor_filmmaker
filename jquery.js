@@ -36,3 +36,11 @@ $(function () {
 
 
 });
+
+$(document).ready(function() {
+    $('.more_text').hide();
+    $("a.read_more").click(function(event){
+        event.preventDefault();
+        $(this).parents('.about-jon').find('.more_text').toggle();
+    });
+});
