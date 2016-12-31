@@ -38,9 +38,10 @@ $(function () {
 });
 
 $(document).ready(function() {
-    $('.more_text').hide();
-    $("a.read_more").click(function(event){
-        event.preventDefault();
-        $(this).parents('.about-jon').find('.more_text').toggle();
-    });
+$("a.read_more").click(function(){
+  var moreAndLess = $(".more_text").is(':visible') ? 'Read more' : 'Read less';
+  $("a.read_more").text(moreAndLess);
+
+  $(".more_text").slideToggle();
+});
 });
