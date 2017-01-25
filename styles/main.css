@@ -188,6 +188,11 @@ h1, h2, h3 {
 .news_article p {
     vertical-align: bottom;
     font-size: 16px;
+    padding-left: 1%;
+}
+
+.news_article h3 {
+    text-align: center;
 }
 
 .news_img {
